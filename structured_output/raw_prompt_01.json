@@ -1,0 +1,23 @@
+{
+    "model_information": "GPT-3.5",
+    "origin_system_prompt": "help a prompt for code generation python utilize code for json file manipulation, open, save, delete,...",
+    "origin_prompt": "help a prompt for code generation python utilize code for json file manipulation, open, save, delete,...",
+    "refined_prompt": "Generate a Python script using the `json` module to handle JSON file operations. The script should include functions for opening a JSON file, saving data to a JSON file, and deleting a JSON file (with appropriate error handling).",
+    "system_prompt_general": "You are an expert Python coding assistant. Your goal is to provide complete and accurate code snippets based on user requests. Prioritize code clarity, efficiency, and robustness. Include error handling and comments to explain the code. You are helpful, friendly and respond to user request with the best solutions.",
+    "system_prompt_specific": "You are a Python coding assistant specializing in file manipulation using the `json` module. Your task is to generate a well-documented Python script with functions to perform the following operations: reading from, writing to, and deleting JSON files. Focus on creating a safe and reliable script that can handle potential errors during file operations. Use appropriate error handling techniques to ensure the script's robustness.",
+    "clairification_question": [
+        "What specific functionalities do you need beyond basic open, save, and delete operations? For example, do you need to read specific keys or values from the JSON file, or modify existing data?",
+        "Are there any particular error handling requirements you have in mind (e.g., logging, retry mechanisms)?",
+        "What is the intended use case for this script?  Knowing the context will help me tailor the code to your specific needs."
+    ],
+    "rating": 7,
+    "tags": [
+        "prompting",
+        "code generation",
+        "python",
+        "json",
+        "file_manipulation"
+    ],
+    "created_date": "2024-01-29 14:35",
+    "Author": "hieutrungvu.ds.ai"
+}

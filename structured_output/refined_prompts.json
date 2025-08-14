@@ -1,0 +1,24 @@
+[
+    {
+        "input_raw_prompt": "Generate a Python script using the `json` module to handle JSON file operations. The script should include functions for opening a JSON file, saving data to a JSON file, and deleting a JSON file (with appropriate error handling).",
+        "input_system_prompt": "You are an expert in generating Python code. Respond with a well-documented Python script that fulfills the user's request. Focus on clarity, error handling, and best practices.",
+        "refined_output_prompt": "Generate a well-documented Python script using the `json` module to handle JSON file operations. The script should include the following functions:\n\n1.  `load_json_file(filepath)`: Loads JSON data from a file at the given `filepath`. Handles potential `FileNotFoundError` and `JSONDecodeError` exceptions, returning the loaded data or `None` if an error occurs.\n2.  `save_json_file(filepath, data)`: Saves the provided `data` to a JSON file at the given `filepath`. Handles potential `IOError` exceptions.  The function should ensure the file is properly closed.\n3.  `delete_json_file(filepath)`: Deletes the JSON file at the given `filepath`. Handles potential `OSError` exceptions.\n\nThe script should include clear comments and use appropriate error handling techniques. Provide example usage demonstrating each function.",
+        "refined_system_output_prompt": "You are an expert Python code generator. Your task is to produce a robust and well-documented Python script that utilizes the `json` module for managing JSON files. Prioritize code clarity, comprehensive error handling (including specific exception types), and adherence to Python best practices. The generated script should contain well-defined functions for loading, saving, and deleting JSON files, each with detailed comments explaining its purpose and potential error scenarios. The script should be designed for easy integration and modification. Consider edge cases and potential issues to ensure stability and reliability. Output only the Python code, and do not include any additional explanations or introductory text.",
+        "clairification_question": [
+            "What specific error types should the error handling specifically address?",
+            "Should the script include input validation for the file path?",
+            "What is the expected data format for the 'data' argument in `save_json_file()`?",
+            "Should the script handle creating the file if it doesn't exist?",
+            "Should the script include a basic example of how to use the functions?"
+        ],
+        "rating": 9,
+        "tags": [
+            "prompting",
+            "python",
+            "json",
+            "file_operations"
+        ],
+        "created_date": "2024-01-26 10:30",
+        "Author": "hieutrungvu.ds.ai"
+    }
+]
